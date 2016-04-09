@@ -1,0 +1,48 @@
+{
+  "name": "kubide-api-setter",
+  "version": "0.0.2",
+  "description": "Middleware to set environment based as it does Kubide",
+  "main": "index.js",
+  "scripts": {
+    "ncu": "./node_modules/.bin/ncu",
+    "dev": "clear && export NODE_ENV=development && npm install && npm update && ./node_modules/.bin/nodemon",
+    "test": "clear && export NODE_ENV=development && npm install && ./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kubide/kubide-api-singleton-setter.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "keywords": [
+    "i18n",
+    "x-locale",
+    "express"
+  ],
+  "author": "Kubide <hola@kubide.es> (http://kubide.es)",
+  "contributors": [
+    "Ángel Luis Quesada <angel.quesada@kubide.es> (http://gelito.me)",
+    "Eneko Lakasta <eneko.lakasta@kubide.es>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kubide/kubide-api-singleton-setter/issues"
+  },
+  "homepage": "https://github.com/Kubide/kubide-api-singleton-setter#readme",
+  "engines": {
+    "node": ">= 4.4.2"
+  },
+  "dependencies": {
+    "i18n-xlocale": "0.0.1",
+    "lodash": "^4.9.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "express": "^4.13.4",
+    "mocha": "^2.3.3",
+    "nodemon": "^1.7.1",
+    "npm-check-updates": "^2.6.1",
+    "supertest": "^1.1.0"
+  }
+}
