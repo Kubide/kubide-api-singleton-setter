@@ -1,6 +1,6 @@
 {
   "name": "kubide-api-setter",
-  "version": "0.0.2",
+  "version": "1.0.1",
   "description": "Middleware to set environment based as it does Kubide",
   "main": "index.js",
   "scripts": {
